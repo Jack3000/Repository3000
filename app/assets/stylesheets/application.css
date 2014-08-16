@@ -14,11 +14,42 @@
  *= require_self
  */
 
-.glp {
-	color: white;
-}
+ body div.header {
+ 	width: 100%;
+	text-align: center;
+	min-height: 50px;
+	background-color: #ADEDAE;
+	display: inline-block;
+ }
 
+ body {
+ 	margin: 0px;
+ 	min-width: 1000px
+ }
 
-body {
-	background-color: black;
-}
+ body .header div {
+ 	font-size: 25px;
+	margin-top: 8px;
+ }
+
+ .sidebar {
+ 	float: left;
+	width: 300px;
+	min-height: 500px;
+	border: solid 2px #bbb;
+	margin: 10px;
+ }
+
+ .sidebar div {
+ 	padding-left: 20px;
+ }
+
+ .sidebar .links {
+ 	margin-top: 50px;
+	border-top: solid 1px #bbb;
+ }
+
+ .main {
+ 	float: left;
+ 	width: 70%;
+ }
